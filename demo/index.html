@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nayliSans1</title>
+<style>
+  @font-face {
+    font-family: "nayliSans1";
+    src: url("../fonts/nayliSans1.woff2") format("woff2"),
+         url("../fonts/nayliSans1.woff")  format("woff");
+    font-display: swap;
+  }
+  body { margin: 0; background: #faf8f4; color: #1a1a1a;
+         font-family: -apple-system, system-ui, sans-serif; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font: 400 15px/1 system-ui; letter-spacing: .18em; text-transform: uppercase;
+       color: #9a9488; margin: 0 0 40px; }
+  .hand { font-family: "nayliSans1", cursive; color: #111; line-height: 1.35; }
+  .xl { font-size: 64px; }
+  .lg { font-size: 44px; }
+  .md { font-size: 32px; }
+  .row { margin: 26px 0; }
+  input { font-family: "nayliSans1", cursive; font-size: 40px; width: 100%;
+          box-sizing: border-box; border: 0; border-bottom: 2px dashed #ddd6c8;
+          background: transparent; padding: 8px 2px; color: #111; outline: none; }
+  .cap { font: 400 13px/1.5 system-ui; color: #9a9488; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>nayliSans1 — handwriting from a napkin</h1>
+
+  <div class="row hand xl">abcdefghijklm<br>nopqrstuvwxyz</div>
+  <div class="row hand lg">0123456789 &nbsp; $ &pound; ~</div>
+  <div class="row hand lg">&#9733; &#9829; &#10022; &#9786; &nbsp; * * *</div>
+  <div class="row hand md">the quick brown fox jumps over the lazy dog</div>
+
+  <div class="row">
+    <input class="type" value="type here ★ ♥" spellcheck="false">
+    <div class="cap">Type in lowercase. Star is also on the * key.</div>
+  </div>
+</div>
+</body>
+</html>
